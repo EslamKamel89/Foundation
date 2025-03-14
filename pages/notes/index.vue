@@ -1,10 +1,7 @@
 <template>
   <div>Notes index</div>
   <div>
-    <div class="border border-gray-700 m-2 p-3 rounded-lg">
-      <h1>Title</h1>
-      <p>Description</p>
-    </div>
+    <NoteCard v-for="i in 5" :key="i" />
   </div>
 </template>
 
