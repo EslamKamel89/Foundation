@@ -14,6 +14,16 @@
 const condition = ref(false);
 const wisdomOne = resolveComponent("WisdomOne");
 const wisdomTwo = resolveComponent("WisdomTwo");
+definePageMeta({
+  // middleware: [
+  //   (to, from) => {
+  //     console.log("=====================================");
+  //     console.log("Middleware Inline");
+  //     console.log({ to, from });
+  //     console.log("=====================================");
+  //   },
+  // ],
+});
 </script>
 
 <style scoped></style>
